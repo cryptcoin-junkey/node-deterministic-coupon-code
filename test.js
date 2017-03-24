@@ -9,6 +9,9 @@ describe('#generate', () => {
   it('dnum = 1, length = 27', () => {
     target.generate('test', 1, 27).should.equal('0.ewmoh9cujkrwgi9sotjawnrk9');
   });
+  it('negative length', () => {
+    (() => target.generate('test', 1, -1)).should.throw();
+  });
   it('too long length', () => {
     (() => target.generate('test', 1, 28)).should.throw();
   });
