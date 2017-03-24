@@ -1,0 +1,31 @@
+{
+  "name": "deterministic-coupon-code",
+  "version": "0.0.0",
+  "description": "Coupon code generator from seed and integer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cryptcoin-junkey/node-deterministic-coupon-code.git"
+  },
+  "keywords": [
+    "coupon",
+    "afferiate",
+    "vaucher"
+  ],
+  "author": "cryptcoin-junkey@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryptcoin-junkey/node-deterministic-coupon-code/issues"
+  },
+  "homepage": "https://github.com/cryptcoin-junkey/node-deterministic-coupon-code#readme",
+  "dependencies": {
+    "seedrandom": "2.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  }
+}
