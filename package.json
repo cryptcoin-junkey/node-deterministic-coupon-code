@@ -1,6 +1,6 @@
 {
   "name": "deterministic-coupon-code",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Coupon code generator from seed and integer.",
   "main": "index.js",
   "scripts": {
